@@ -1,0 +1,13 @@
+:root {
+    --color-first-grey: #f8f9fa;
+    --color-second-grey: #3c4043;
+
+    --font-roboto: 'Roboto', 'Arial', sans-serif;
+}
+
+body {
+    font-size: 14px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

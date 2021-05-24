@@ -1,0 +1,7 @@
+.main-nav {
+    display: inline-block;
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    align-items: center;
+}
