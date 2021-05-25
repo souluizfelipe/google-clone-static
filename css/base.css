@@ -1,11 +1,16 @@
 :root {
+    --color-white:#FFF;
     --color-first-grey: #f8f9fa;
     --color-second-grey: #3c4043;
+    --color-third-grey: #dfe1e5;
+    --color-fourth-grey: #9aa0a6;
+    --color-black: #222;
 
     --font-roboto: 'Roboto', 'Arial', sans-serif;
 }
 
 body {
+    color: var(--color-black);
     font-size: 14px;
     height: 100%;
     margin: 0;
