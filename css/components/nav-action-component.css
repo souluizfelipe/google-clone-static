@@ -4,3 +4,7 @@
     font-family: var(--font-roboto);
     margin-left: 1rem;
 }
+
+.nav-action-component:hover {
+    text-decoration: underline;
+}
