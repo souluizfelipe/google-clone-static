@@ -17,31 +17,52 @@
     <link rel="stylesheet" href="css/components/nav-action-component.css">
 
     <link rel="stylesheet" href="css/components/main-search-component.css">
+    <link rel="stylesheet" href="css/components/search-box-component.css">
 </head>
 <body>
     <div class="page-container">
         <header class="main-header-component">
             <nav class="main-nav-component">
-                <a class="nav-action-component" href="">Gmail</a>
-                <a class="nav-action-component" href="">Images</a>
-                <a class="nav-action-component" href=""><img src="assets/img/menu-apps.png" alt="apps"></a>
-                <a class="nav-action-component" href=""><img src="assets/img/logo.png" alt="profile photo"></a>
+                <a class="nav-action-component" href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a>
+                <a class="nav-action-component" href="#">Images</a>
+                <a class="nav-action-component" href="#"><img src="assets/img/menu-apps.png" alt="apps"></a>
+                <a class="nav-action-component" href="#"><img src="assets/img/logo.png" alt="profile photo"></a>
             </nav>
         </header>
         <div class="main-search-component">
-            <div>
-                <img class="main-logo" src="assets/img/googlelogo_color_272x92dp.png" alt="Logo Google">
-                <div class="search-box-component">
-                    <img class="icons -search" src="assets/img/search_icon.svg" alt="search icon">
+            <img class="main-logo" src="assets/img/googlelogo_color_272x92dp.png" alt="Logo Google">
+            <div class="search-wrapper">
+                <form class="search-box-component">
+                    <img class="search-icons -search" src="assets/img/search_icon.svg" alt="search icon">
                     <input class="search-input" type="text" name="" id="">
-                    <img class="icons -clear -active" src="assets/img/clear_icon.svg" alt="clear icon">
-                </div>
-                <div class="button-group">
-                    <button class="search-button" type="submit">Google Search</button>
-                    <button class="search-button" type="submit">I'm Feeling Lucky</button>
-                </div>
+                    <a class="clear-action" href="#">
+                        <img class="search-icons -clear -active" src="assets/img/clear_icon.svg" alt="clear icon">
+                    </a>    
+                </form>
+            </div>
+            <div class="button-group">
+                <button class="search-button" type="submit">Google Search</button>
+                <button class="search-button" type="submit">I'm Feeling Lucky</button>
             </div>
         </div>
+        <footer class="main-footer-component">
+            <div class="footer-country">
+
+            </div>
+            <div class="footer-info">
+                <div class="left-group">
+                    <a href="">About</a>
+                    <a href="">Advertising</a>
+                    <a href="">Business</a>
+                    <a href="">How Search Works</a>
+                </div>
+                <div class="right-group">
+                    <a href="">Privacy</a>
+                    <a href="">Terms</a>
+                    <a href="">Setings</a>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
