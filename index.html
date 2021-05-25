@@ -12,21 +12,36 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
 
-    <link rel="stylesheet" href="css/components/main-header.css">
-    <link rel="stylesheet" href="css/components/main-nav.css">
-    <link rel="stylesheet" href="css/components/nav-action.css">
+    <link rel="stylesheet" href="css/components/main-header-component.css">
+    <link rel="stylesheet" href="css/components/main-nav-component.css">
+    <link rel="stylesheet" href="css/components/nav-action-component.css">
+
+    <link rel="stylesheet" href="css/components/main-search-component.css">
 </head>
 <body>
     <div class="page-container">
-        <header class="main-header">
-            <nav class="main-nav">
-                <a class="nav-action" href="">Gmail</a>
-                <a class="nav-action" href="">Images</a>
-                <a class="nav-action" href=""><img src="assets/img/menu-apps.png" alt="apps"></a>
-                <a class="nav-action" href=""><img src="assets/img/logo.png" alt="profile photo"></a>
+        <header class="main-header-component">
+            <nav class="main-nav-component">
+                <a class="nav-action-component" href="">Gmail</a>
+                <a class="nav-action-component" href="">Images</a>
+                <a class="nav-action-component" href=""><img src="assets/img/menu-apps.png" alt="apps"></a>
+                <a class="nav-action-component" href=""><img src="assets/img/logo.png" alt="profile photo"></a>
             </nav>
         </header>
-        
+        <div class="main-search-component">
+            <div>
+                <img class="main-logo" src="assets/img/googlelogo_color_272x92dp.png" alt="Logo Google">
+                <div class="search-box-component">
+                    <img class="icons -search" src="assets/img/search_icon.svg" alt="search icon">
+                    <input class="search-input" type="text" name="" id="">
+                    <img class="icons -clear -active" src="assets/img/clear_icon.svg" alt="clear icon">
+                </div>
+                <div class="button-group">
+                    <button class="search-button" type="submit">Google Search</button>
+                    <button class="search-button" type="submit">I'm Feeling Lucky</button>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
