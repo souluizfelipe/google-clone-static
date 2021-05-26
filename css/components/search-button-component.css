@@ -1,0 +1,11 @@
+.search-button-component{
+    background-color: var(--color-first-grey);
+    color: var(--color-black-second);
+    height: 36px;
+    min-width: 54px;
+    padding: 0 16px;
+    border: 1px solid var(--color-first-grey);
+    border-radius: 4px;
+    margin: 11px 4px;
+    cursor: pointer;
+}
