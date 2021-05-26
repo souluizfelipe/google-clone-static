@@ -1,7 +1,7 @@
 .nav-action-component {
     color: rgba(0,0,0,0.87);
     text-decoration: none;
-    font-family: var(--font-roboto);
+    font-size: 0.95rem;
     margin-left: 1rem;
 }
 
