@@ -4,12 +4,14 @@
     --color-second-grey: #3c4043;
     --color-third-grey: #dfe1e5;
     --color-fourth-grey: #9aa0a6;
-    --color-black: #222;
+    --color-black-first: #222;
+    --color-black-second: #3c4043;
 
     --font-roboto: 'Roboto', 'Arial', sans-serif;
 }
 
 body {
+    font-family: 'Arial', sans-serif;;
     color: var(--color-black);
     font-size: 14px;
     height: 100%;
